@@ -1,0 +1,57 @@
+#image
+{
+  width: 140px ;
+  height: 140px ;
+  object-fit: contain;
+}
+#form
+{
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#formGroup
+{
+    margin-top: 20px;
+}
+#ht
+{
+  margin-right: 30px;
+}
+#loader
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imgContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px ;
+}
+#detailsContainer
+{
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+#nameContainer
+{
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+#followTable
+{
+  vertical-align: top;
+}
+
+td
+{
+  text-align: center;
+}
