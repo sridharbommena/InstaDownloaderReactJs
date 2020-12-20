@@ -121,7 +121,7 @@ function Dp() {
           <img className="rounded-circle"
                 src={imageSrc}
                 alt="new"
-                id = "image"
+                id="images"
               />
             </div>
 
