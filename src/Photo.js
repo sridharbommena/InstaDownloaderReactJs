@@ -120,7 +120,7 @@ function Photo() {
 
         </div>
         </div>
-        <div className="d-flex justify-content-center" >
+        <div className="d-flex justify-content-center" id="download" >
         <Button variant="primary" className="center" onClick={()=> downloadFile() } ><AiOutlineDownload size={23} />Download</Button>
 
         </div>

@@ -151,8 +151,17 @@ function Dp() {
         </div>
         </div>
 
-        <div className="d-flex justify-content-center" >
-        <Button variant="primary" className="center" onClick={()=> downloadFile() } ><AiOutlineDownload size={23} />Download</Button>
+        <div id="imgContainer" >
+          <img
+                src={imageSrc}
+                alt="new"
+                id = "image"
+              />
+
+        </div>
+
+        <div className="d-flex justify-content-center" id="downloads" >
+        <Button variant="primary" className="center"  onClick={()=> downloadFile() } ><AiOutlineDownload size={23} />Download</Button>
 
         </div>
 
